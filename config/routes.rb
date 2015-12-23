@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  root 'vouu#index'
+
+  get 'vouu/edit'
+
+  get 'vouu/show'
+
+  get 'vouu/new'
+
+  get 'vouu/delete'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

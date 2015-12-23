@@ -1,0 +1,2 @@
+module VouuHelper
+end
