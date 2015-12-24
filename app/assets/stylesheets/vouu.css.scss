@@ -7,13 +7,13 @@
 
 @font-face {
 	font-family: 'thuphap';
-	src: asset_url('Olympic Branding.ttf');
+	src: url('Olympic Branding.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'script';
-	src: asset_url('Candlescript Demo Version.otf');
+	src: url('Candlescript Demo Version.otf');
 	font-weight: normal;
 	font-style: normal;
 
@@ -24,7 +24,7 @@
 	width: 100%;
 	height: 80px;
 	background: black;
-	background-image: asset_url('banner.jpg');
+	background-image: asset-url('banner.jpg');
 	background-size: 30% 100%;
 	background-repeat:no-repeat;
 	background-position: 70px 0;
