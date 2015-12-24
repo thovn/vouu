@@ -1,0 +1,136 @@
+* {
+	margin: 0px;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+
+@font-face {
+	font-family: 'thuphap';
+	src: url('Olympic Branding.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'script';
+	src: url('Candlescript Demo Version.otf');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+.banner {
+	padding-top: 25px;
+	width: 100%;
+	height: 80px;
+	background: black;
+	background-image: url('banner.jpg');
+	background-size: 30% 100%;
+	background-repeat:no-repeat;
+	background-position: 70px 0;
+	background-color:black;
+	color: #fd7507;
+	text-align: center;
+	
+}
+/*.logo {
+	padding-top:25px;
+	padding-right:25px;
+	padding-left:25px;
+	
+
+}*/
+.banner p {
+
+	display: inline;
+	font-family: 'thuphap';
+	font-size: 50px;
+	
+
+	
+	
+}
+
+.menubar {
+	width: 100%;
+	height: 30px;
+	background:#fd7507;
+	padding-top:10px;
+	text-align: center;
+	
+}
+.menubar a{
+	font-size: 14px;
+	display: inline;
+	padding-left: 15px;
+	color: black;
+	text-decoration: none;
+	/*font-weight: bold;*/
+}
+
+.menubar a:hover {
+	color: white;
+
+
+}
+
+.slider {
+	height: 400px;
+	background-image: url('buddha2.jpg');
+	background-position: right;
+	background-size: 65% 100%;
+	background-repeat: no-repeat;
+	background-color:black;
+	text-align: center;
+	
+}
+.quote {
+
+	display: block;
+	height: 80px;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 10px;
+	font-weight: lighter;
+	/*background:#fd7507;*/
+	
+}
+.quote p {
+	font-family: 'script';
+	font-size: 22px;
+	/*line-height: 25px;*/
+}
+.lotus {
+	height:40px;
+	/*background:#fd7507;*/
+	text-align: center;
+}
+.contact_background {
+	width:100%;
+	
+}
+.contact {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	padding-top: 10px;
+	height: 100px;
+	text-align: center;
+	background:#fd7507;
+}
+.contact h5{
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.contact p{
+
+	font-size: 12px;
+}
+.footer {
+	height: 15px;
+	padding-left: 25px;
+	text-align: left;
+	font-size:10px;
+	font-weight: lighter;
+}
