@@ -111,7 +111,7 @@
 	/*line-height: 25px;*/
 }
 .lotus {
-	clear:both;
+	clear:both;	
 	height:40px;
 	/*background:#fd7507;*/
 	text-align: center;
@@ -157,8 +157,21 @@
 
 }
 .gioithieu {
-	margin: 20px 20px 20px 100px;
+	margin: 0px 100px 0px 100px;
 	/*text-indent: 50px;*/
+}
+.poem {
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 100px;
+	color: teal;
+
+}
+.signature {
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 200px;
+
 }
 .container {
 	width: 300px;
@@ -170,6 +183,7 @@
 	float:left;
 	/*clear:left;*/
 }
+
 .container p{
 	margin-top: 10px;
 }
@@ -185,26 +199,69 @@
 	background-position:left center;
 	background-repeat: no-repeat;
 }
-.thuyetphap h2{
-	
+/*.thuyetphap h2{
 	margin-top: 20px;
-}
+	text-align: center;
+}*/
 .thuyetphap p{
 	margin-left: 100px;
+	margin-right:100px;
 }
 .danhsachbaiphap {
 	font-style: italic;
 	line-height: 30px;
 }
+.indenced {
+	margin-left:50px;
+}
 .thanhqui {
-	background-image: url('thanhqui_bg2.jpg');
+	background-image: url('thanhqui_bg3.jpg');
 	background-size:1000px 677px;
 	background-position: top center;
 	background-repeat: no-repeat;
 }
-.thanhqui h2 {
-	margin-top:20px;
+
+
+.thanhqui table {
+	width: 400px;
+	
+	/*border-collapse: collapse;*/
 }
-.thanhqui p,h2,h3 {
+table, td{
+	border: none;
+}
+td {
+	height: 25px;
+}
+.even {
+	background: #ffb67b;
+}
+.odd {
+	background: #ffe7d4;
+}
+
+.video>table, .hinhanh > table {
+	margin-left:auto;
+	margin-right: auto;
+	width:600px;
+	/*border-collapse: collapse;*/
+}
+.video td, .hinhanh td {
+	text-align: center;
+}
+.link>a {
+	color : #245ec6;
+	text-decoration: none;
+}
+.sinhhoat, .lienlac, .kinhsach, .thanhqui {
 	margin-left: 100px;
+	margin-right:100px;
 }
+
+.googlemap {
+	text-align: center;
+}
+.online {
+	text-align: center;
+}
+
