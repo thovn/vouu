@@ -2,29 +2,15 @@
 
 <link href="assets/javascripts/js-image-slider.css" rel="stylesheet" type="text/css" />
 <script src="assets/javascripts/js-image-slider.js" type="text/javascript"></script>
-<link href="assets/stylesheets/generic.css" rel="stylesheet" type="text/css" />
+
+<%= render(:partial => "header") %>
+<%= render(:partial => "menubar") %>
+<div class = "thungo">
+	<%= image_tag('thungo2.png', :size => '800x1131') %>
+</div>
 
 
-<div class = "banner"> 
-	
-	<p>Vo Uu Buddhist Meditation Association
-	
-</div>
-<div class = "menubar">
-	<%= link_to "Trang Chủ", :action => 'index' %>
-	<%= link_to "Giới Thiệu", :action => 'gioithieu' %>
-	<%= link_to "Thanh Qui", :action => 'thanhqui' %>
-	<%= link_to "Thuyết Pháp", :action => 'thuyetphap' %>
-	<%= link_to "Kinh Sách", :action => 'kinhsach' %>
-	<%= link_to "Sinh Hoạt", :action => 'sinhhoat' %>
-	<%= link_to "Hình Ảnh", :action => 'hinhanh' %>
-	<%= link_to "Phim Video", :action => 'video' %>
-	<%= link_to "Phật Pháp Online", :action => 'phatphaponline' %>
-	<%= link_to "Liên Lạc", :action => 'lienlac' %>
-	
-</div>
-<!-- <div class = "slider">  -->
-	<div id="sliderFrame">
+<!-- 	<div id="sliderFrame">
     <div id="slider">
       <%= image_tag('image-slider-1.jpg') %>
       <%= image_tag('image-slider-2.jpg') %>
@@ -36,10 +22,7 @@
       <%= image_tag('image-slider-8.jpg') %>
     
     </div>
-  </div>
-<!-- </div> -->
-
-
+  </div> -->
 
 <div class = "quote"> 
 	<p> "Happiness or sorrow- whatever befalls you, walk on untouched, unattached."
@@ -57,6 +40,4 @@
 	<p>Email: vouuthienvien@yahoo.com
 </div>
 </div>
-<div class = "footer">
-	<p> Copyright © 2015 Tho Truong
-</div>
+<%= render(:partial => "footer") %>

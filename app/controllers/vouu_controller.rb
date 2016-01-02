@@ -1,5 +1,7 @@
 class VouuController < ApplicationController
   def index
+    # redirect, refresh
+    
   end
 
   def edit

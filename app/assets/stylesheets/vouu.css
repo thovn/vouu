@@ -13,12 +13,18 @@
 }
 @font-face {
 	font-family: 'script';
-	src: font_url('Candlescript Demo Version.otf');
+	src: url('Candlescript Demo Version.otf');
 	font-weight: normal;
 	font-style: normal;
 
 }
+@font-face {
+	font-family: 'blacksand';
+	src: url('Olympic Branding.ttf');
+	font-weight: normal;
+	font-style: normal;
 
+}
 .banner {
 	padding-top: 25px;
 	width: 100%;
@@ -43,7 +49,7 @@
 .banner p {
 
 	display: inline;
-	font-family: 'thuphap';
+	font-family: 'blacksand';
 	font-size: 50px;
 	
 
@@ -57,6 +63,7 @@
 	background:#fd7507;
 	padding-top:10px;
 	text-align: center;
+	clear:both;
 	
 }
 .menubar a{
@@ -83,6 +90,9 @@
 	background-color:black;
 	text-align: center;
 	
+}
+.thungo {
+	text-align: center;
 }
 .quote {
 
@@ -133,4 +143,45 @@
 	text-align: left;
 	font-size:10px;
 	font-weight: lighter;
+	clear:both;
+}
+.gioithieu_banner {
+	text-align: center;
+}
+.gioithieu_header {
+	margin: 20px auto 20px auto;
+
+}
+.gioithieu {
+	margin: 20px 20px 20px 100px;
+	/*text-indent: 50px;*/
+}
+.container {
+	width: 300px;
+	height: 250px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	position:relative;
+	float:left;
+	/*clear:left;*/
+}
+.container p{
+	margin-top: 10px;
+}
+.quangcanh {
+	max-width: 300px;
+	max-height: 200px;
+}
+.thuyetphap {center
+
+	width: 100%;
+	height:800px;
+	background-image: url('thuyetphap_bg2.jpg');
+	background-size: 100% 100%;
+	background-position:left center;
+	background-repeat: no-repeat;
+}
+.thuyetphap h2{
+	margin-top: 20px;
 }
