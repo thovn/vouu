@@ -12,6 +12,14 @@ class VouuController < ApplicationController
     instance_variable_set("@link", params[:type])
     @title = params[:title]
   end
+  def thuyetphap
+    
+  end
+    
+  
+  def phapngan
+    @title = params[:title] 
+  end
 
   def edit
   end

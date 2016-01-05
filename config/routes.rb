@@ -2,9 +2,7 @@ Rails.application.routes.draw do
   root 'vouu#index'
 
   get 'vouu/gioithieu'
-
-  post 'vouu/video_play'  
-
+   
   match ':controller(/:action(/:id))', :via => :get
 
   # The priority is based upon order of creation: first created -> highest priority.

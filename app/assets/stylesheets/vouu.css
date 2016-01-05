@@ -241,13 +241,13 @@ td {
 	background: #ffe7d4;
 }
 
-.video>table, .hinhanh > table {
+.video>table, .hinhanh > table, .playaudio td {
 	margin-left:auto;
 	margin-right: auto;
 	width:600px;
 	/*border-collapse: collapse;*/
 }
-.video td, .hinhanh td {
+.video td, .hinhanh td, .playaudio td {
 	text-align: center;
 }
 .link>a {
@@ -270,4 +270,9 @@ td {
 }
 .frame iframe {
 	width : 100%;
+}
+.audio {
+	padding-top:5px;
+	vertical-align: center;
+
 }
