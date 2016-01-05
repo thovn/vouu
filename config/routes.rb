@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'vouu/gioithieu'
 
-  
+  post 'vouu/video_play'  
 
   match ':controller(/:action(/:id))', :via => :get
 
