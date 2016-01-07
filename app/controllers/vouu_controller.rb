@@ -20,6 +20,9 @@ class VouuController < ApplicationController
   def phapngan
     @title = params[:title] 
   end
+  def audio_play
+    @title = params[:title]
+  end
 
   def edit
   end

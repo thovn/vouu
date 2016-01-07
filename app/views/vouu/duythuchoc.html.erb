@@ -14,7 +14,7 @@
 			<th> Tựa Đề </th>
 			<th>Dung Lượng</th>
 			<th>Ngày Giảng</th>
-			<th>Phần</th>
+			<th>Audio</th>
 		</tr>
 		<tr class = "even">
 			<td>1</td>
@@ -52,8 +52,7 @@
 			<td>724 MB</td>
 			<td>...</td>
 			<td class = "buttons">
-				<div class = "track_button">
-					<%= link_to '<p>1</p>'.html_safe, :action => 'audio_play', :title => 'Track 01' %>
+				<div class = "track_button"><%= link_to '<p>1</p>'.html_safe, :action => 'audio_play', :title => 'Track 01' %>
 				</div>
 				<div class = "track_button"><%= link_to '<p>2</p>'.html_safe, :action => 'audio_play', :title => 'Track 02' %>
 				</div>

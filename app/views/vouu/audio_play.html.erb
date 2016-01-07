@@ -1,0 +1,19 @@
+<%= render(:partial => "header") %>
+<%= render(:partial => "menubar") %>
+<br>
+<h2 align = "center"> <%= raw @title %> </h2>
+<br>
+<div class = "lotus">
+	<%= image_tag('lotus.png', :size => '80x30' ) %>
+</div>
+<div class = "playaudio">
+	<br>
+	
+	<div class= "audio"><audio src="<%= asset_path 'test.mp3'%>" type="audio/mpeg" controls>
+					Your browser does not support the audio element.
+				</audio>
+	</div>
+	<!-- we can use "h @link" or "@link.html_safe" -->
+</div>
+<br>
+<%= render(:partial => "footer") %>
