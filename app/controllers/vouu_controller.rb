@@ -12,11 +12,38 @@ class VouuController < ApplicationController
     instance_variable_set("@link", params[:type])
     @title = params[:title]
   end
+
+  def kinhluannguluc
+    @title = params[:title]
+  end
+  def phatphapcanban
+    @title = params[:title]
+  end
+  def thienduc
+    @title = params[:title]
+  end
+  def gioiluat
+    @title = params[:title]
+  end
+  def duythuchoc
+    @title = params[:title]
+  end
+  def samhoi
+    @title = params[:title]
+  end
+  def tuhoc
+    @title = params[:title]
+  end
+
   def thuyetphap
-    
   end
     
-  
+  def download
+    send_file("#{Rails.root}/public/test.mp3",
+      :filename => 'test.mp3',
+      :type => "application/mp3"
+      )
+  end
   def phapngan
     @title = params[:title] 
   end
