@@ -39,13 +39,7 @@
 	text-align: center;
 	
 }
-/*.logo {
-	padding-top:25px;
-	padding-right:25px;
-	padding-left:25px;
-	
 
-}*/
 .banner p {
 
 	display: inline;
@@ -159,7 +153,7 @@
 }
 .gioithieu {
 	margin: 0px 100px 0px 100px;
-	/*text-indent: 50px;*/
+
 }
 .poem {
 	font-style: italic;
@@ -182,7 +176,7 @@
 	font-weight: bold;
 	position:relative;
 	float:left;
-	/*clear:left;*/
+
 }
 
 .container p{
@@ -200,10 +194,7 @@
 	background-position:left center;
 	background-repeat: no-repeat;
 }
-/*.thuyetphap h2{
-	margin-top: 20px;
-	text-align: center;
-}*/
+
 .thuyetphap p{
 	margin-left: 100px;
 	margin-right:100px;
@@ -225,8 +216,7 @@
 
 .thanhqui table {
 	width: 400px;
-	
-	/*border-collapse: collapse;*/
+
 }
 table, td{
 	border: none;
@@ -294,7 +284,6 @@ td {
 	border-radius: 5px;
 	border:none;
 	text-decoration:none;
-	vertical-align: center;
 }
 .save p{
 	padding-top:7px;
@@ -316,9 +305,7 @@ table {
 
 	height: 200px;
 	text-align: center;
-/*	height:602px;
-	background-image: url('audio_background.jpg');
-	background-size: 100% 100%;*/
+
 }
 .audio{
 	padding-top:50px;

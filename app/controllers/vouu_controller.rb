@@ -39,8 +39,8 @@ class VouuController < ApplicationController
   end
     
   def download
-    send_file("#{Rails.root}/public/test.mp3",
-      :filename => 'test.mp3',
+    send_file("#{Rails.root}/public/#{params[:filename]}",
+      :filename => params[:filename],
       :type => "application/mp3"
       )
   end
